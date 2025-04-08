@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct std {
+    char name [20];
+    int id;
+    int mark;
+};
+int main (){
+    int i;
+    struct std ss[3];
+    printf ("enter the student details :\n");
+    for (i=0;i<3;i++)
+    {
+        printf("enter name  ID mark:\n");
+        scanf("%s%d%d",&ss[i].name,&ss[i].id,&ss[i].mark);
+    }
+    for (i=0;i<3;i++)
+    {
+        printf("students details:")
+      printf(" std name :%s\n std  ID:%d\n std  mark:%d\n",ss[i].name,ss[i].id,ss[i].mark);
+    }
+}

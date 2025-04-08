@@ -1,0 +1,19 @@
+SET CLEAR  TOGGLE BITS
+
+#include <stdio.h>
+
+int main() 
+{
+    int x=0b00001111;
+x |=(1<<6);
+
+printf("after  the tting bit 6:%d\n", x);
+
+x&=~(1<<2);
+ printf("after the clerar the bit 2:%d\n",x);
+ 
+ x^=(1<<7);
+ printf("after toggle the bin 7:%d\n",x);
+
+    return 0;
+}}

@@ -1,0 +1,17 @@
+IF ELSE STATEMENT EXAMPLE PROGRAM
+
+#include <stdio.h>
+
+int main()
+{
+
+int x = 100;
+   if(x=100) 
+{ 
+    printf("the light is on condition\n");
+}
+else
+{
+    printf("the value of x is :%d",x);
+    printf("   so the light is off condition");
+}

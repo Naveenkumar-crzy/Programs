@@ -1,0 +1,27 @@
+#include <stdio.h>
+//#include pragma pack (1).h
+struct emp
+{
+  
+    char name[20];
+    long int mno;
+    
+    
+};
+void empifo(struct emp);
+
+    
+
+
+int main() {
+   struct emp c={"naveen",7708806420};
+  empinfo(c);
+  
+    return 0;
+}
+
+void empinfo(struct emp c)
+{
+    printf("name :=%s\n",c.name);
+     printf("mobile number :=%ld\n",c.mno);
+}

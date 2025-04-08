@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+  char str[]={"NAVEENKUMAR"};
+ int l=strlen(str);
+    printf("length of arry; %ld\n",l);
+      printf("sizeof of arry; %ld\n",sizeof(str)-1);
+
+    return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+typedef struct structa_tag
+{
+    int i;
+    char c;
+    short int s;
+    double d;
+    
+}structa_t;
+
+int main() {
+   
+    printf("sizeof(struct_t)=%lu\n",sizeof(structa_t));
+
+    return 0;
+}

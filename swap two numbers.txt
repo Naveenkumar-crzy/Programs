@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main () {
+    int a=10,b=20;
+    int temp;
+  
+    printf("%d-%d",a,b);
+    
+    a=a+b;   //a=30
+    b=a-b;   //b= 10
+    a=a-b;
+       printf("\n%d-%d",a,b);
+       
+                                  // a and b value change inbetween methods;
+  //ONE MORE METHOD ;
+ temp=a; 
+  a=b;
+  b=temp;
+    
+      printf("\n%d-%d",a,b);
+   //one more method using bitwise oprator;   
+      a=a^b;
+      b=a^b;
+      a=a^b;
+         printf("\n%d-%d",a,b);
+    
+  return 0;  
+}

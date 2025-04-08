@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void find(int n){
+ if (n%2 == 1)
+   {
+    printf("its a odd number\n ");
+   }
+    else 
+    {
+          printf("its a even number\n ");
+    }
+ main();
+}
+
+int main() {
+   int n;
+   printf("enter the number ;");
+   scanf("%d",&n);
+  find(n);
+    return 0;
+}

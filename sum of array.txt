@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main() {
+int arr[5];
+int i,sum=0;
+int l=sizeof (arr)/sizeof arr[0];
+
+ printf(" enter the 5 lement:");
+ for (i=0;i<l;i++)
+ {
+ scanf("%d",&arr[i]);
+ }
+for (i=0;i<5;i++)
+{
+    sum=sum+arr[i];
+}
+  printf(" \nsum of given number %d",sum);
+    return 0;
+}
+
+
+
+#include <stdio.h>
+
+int main() {
+int arr[5];
+int i,sum=0;
+int l=sizeof (arr)/sizeof arr[0];
+
+ printf(" enter the 5 lement:");
+ for (i=0;i<l;i++)
+ {
+ scanf("%d",&arr[i]);
+ }
+  for (i=1;i<l;i++)
+ {
+ printf(" \narray elements%d %d",i,arr[i]);
+ }
+ 
+for (i=0;i<5;i++)
+{
+    sum=sum+arr[i];
+}
+  printf(" \nsum of given number %d",sum);
+    return 0;
+}

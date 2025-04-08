@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+struct fuirt
+{
+    char name;
+    float wt;
+    
+};
+void price(float a);
+int main(){
+    struct fuirt f1;
+    
+    printf("enter the fuirt name:");
+    scanf("%s",&f1.name );
+    printf("Enter the weight:");
+    scanf("%f",&f1.wt);
+    price(f1.wt);
+    printf("\nwelcome again");
+    return 0;
+    
+}
+void price (float a){
+    float price=90*a;
+    printf("\nTotal price of fuirt=%f",price);
+    
+}
